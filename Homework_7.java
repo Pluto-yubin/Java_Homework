@@ -13,7 +13,7 @@ class MyException extends Throwable{
 
 }
 
-public class Java_7{
+public class Homework_7{
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
