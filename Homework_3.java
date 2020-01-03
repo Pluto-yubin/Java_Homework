@@ -5,8 +5,8 @@ public class Homework_3 {
 
     public static void main(String[] args) {
 //        int[] a = {2, 4, 6, 8, 1, 4, 56, 7, 9, 0, 3, 2, 4, 6, 8, 1, 2, 8, 5, 9};
-        System.out.println("大小10的数组");
-        int[] a = new int[100];
+        System.out.println("大小10000的数组");
+        int[] a = new int[10000];
         Arrays.fill(a, 10);
         long start_time = System.nanoTime();
         quick_sort(0, a.length-1, a);
